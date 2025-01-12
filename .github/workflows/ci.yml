@@ -19,4 +19,4 @@ on:
             go-version: "1.23.0"
 
         - name: Force Failure
-          uses: (exit 1)
+          run: (exit 1)
